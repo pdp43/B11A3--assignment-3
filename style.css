@@ -1,0 +1,15 @@
+.primary-clr{
+    color: #FFDC26;
+}
+.adlam-font{
+    font-family: "ADLaM Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.sora-font{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }

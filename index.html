@@ -4,11 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browse pet</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ebf6c3889f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+<header>
+<nav class="bg-[#FFF9F4] py-6 ">
+    <div class="flex justify-between w-10/12 mx-auto sora-font text-lg items-center">
+        <div class="flex justify-center items-center space-x-3">
+           <div class="primary-clr">
+            <img src="c1-assets/logo-header.png" alt="">
+           </div>
+           <div>
+            <h5>Browse<span class="primary-clr">4</span>Pets</h5>
+           </div>
+        </div>
+        <div>
+            <ul class="flex space-x-8">
+                <li><a href="">Find a pet</a></li>
+                <li><a href="">Breeds</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="flex space-x-4 items-center">
+            <div>
+                <a href=""><i class="fa-regular fa-bell"></i></a>
+            </div>
+            <div>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div>
+                <button class="border border-[#FFDC26] px-7 py-3 rounded-lg">Login</button>
+            </div>
+            <div>
+                <button class="rounded-lg bg-[#FFDC26] px-7 py-3">Register</button>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="banner w-10/12 mx-auto  mt-16">
+    <div class="banner-content space-y-4 absolute z-10">
+        <h2 class="adlam-font text-5xl">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h2>
+        <p class="opacity-70">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+        <button class="rounded-lg bg-[#FFDC26] px-7 py-3 mt-2">Find a pet</button>
+    </div>
+    <div class="banner-img relative">
+        <img class="" src="c1-assets/cat-big.png" alt="">
+    </div>
+</div>
+</header> 
+<main>
+ <section>
+    <div class="catagories w-10/12 mx-auto space-y-12 mb-32">
+        <div class="catagoriestitle mt-36 text-4xl adlam-font">
+            <h1>Browse By Categories</h1>
+        </div>
+        <div class="catagories-cards grid grid-cols-6 gap-6">
+            <div class="card flex flex-col items-center justify-center bg-[#F9DF8A] px-8 py-8 rounded-xl">
+                <div class="rounded-full bg-white p-7"><img src="c1-assets/dog-cartoon.png" alt=""></div>
+                <h1 class="mt-6 mb-2 adlam-font">Dog</h1>
+                <h3 class="sora-font text-sm">3 items</h3>
+            </div>
+            <div class="card flex flex-col items-center justify-center bg-[#F9DF8A] px-8 py-8 rounded-xl">
+                <div class="rounded-full bg-white p-7"><img src="c1-assets/fish-cartoon.png" alt=""></div>
+                <h1 class="mt-6 mb-2 adlam-font">Fish</h1>
+                <h3 class="sora-font text-sm">3 items</h3>
+            </div>
+            <div class="card flex flex-col items-center justify-center bg-[#F9DF8A] px-8 py-8 rounded-xl">
+                <div class="rounded-full bg-white p-7"><img src="c1-assets/cat-cartoon.png" alt=""></div>
+                <h1 class="mt-6 mb-2 adlam-font">Cat</h1>
+                <h3 class="sora-font text-sm">3 items</h3>
+            </div>
+            <div class="card flex flex-col items-center justify-center bg-[#F9DF8A] px-8 py-8 rounded-xl">
+                <div class="rounded-full bg-white p-7"><img src="c1-assets/bird-cartoon.png" alt=""></div>
+                <h1 class="mt-6 mb-2 adlam-font">Birds</h1>
+                <h3 class="sora-font text-sm">3 items</h3>
+            </div>
+            <div class="card flex flex-col items-center justify-center bg-[#F9DF8A] px-8 py-8 rounded-xl">
+                <div class="rounded-full bg-white p-7"><img src="c1-assets/mouse-cartoon.png" alt=""></div>
+                <h1 class="mt-6 mb-2 adlam-font">Small pet</h1>
+                <h3 class="sora-font text-sm">3 items</h3>
+            </div>
+            <div class="card flex flex-col items-center justify-center bg-[#F9DF8A] px-8 py-8 rounded-xl">
+                <div class="rounded-full bg-white p-7"><img src="c1-assets/rabbit-cartoon.png" alt=""></div>
+                <h1 class="mt-6 mb-2 adlam-font">Rabbit</h1>
+                <h3 class="sora-font text-sm">3 items</h3>
+            </div>
+        </div>
+    </div>
+ </section>
+ <sectionc class="trending bg-[#FFF9F4]">
+
+ </sectionc>
+</main>
+<footer>
+
+</footer>
 </body>
 </html>
